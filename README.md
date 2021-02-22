@@ -6,6 +6,22 @@ People released from prison face a lot of obstacles due to their conviction hist
 
 This website aims to make previously incarcerated people's integration into society easier. Keep reading to find more about the site's capabilities!
 
+## Using the Tool
+
+Clone the Re-Entry Hub repository:
+
+    $ git clone https://github.com/maddiewaldie/hack-for-humanity-2021
+
+Open terminal, and navigate to your Re-Entry Hub repository. Once you are in this directory, run the following command:
+
+    $ python3 -m http.server 8000
+  
+Navigate to your browser, and type in the following web address:
+
+    localhost:8000
+    
+Now you can use the website!
+
 ## Tour the Site!
 
 ### The Black & White Design
