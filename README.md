@@ -1,4 +1,4 @@
-# Re-Entry Resort
+# Re-Entry Hub
 
 ## About the Project
 
@@ -26,6 +26,22 @@ The ID resources tab of our website provides a comprehensive guide on how to go 
 As stated above, many former prisoners experience difficulty finding a job after release. During their time spent in prison, many lose work skills and are given little opportunity to gain useful work experience. Moreover, the availability of job-training programs in prison has declined in recent years.
 
 The job search tab of our website is designed to help people who were formerly incarcerated find jobs. Upon entering their location, this tab allows the user to find resources in their area that can help with employment.
+
+## Behind the Software
+
+This website was implemented using HTML, CSS, and Javascript. The maps were created using the Google Maps Javascript API, and the Birth Certificates Search was created using Microsoft Azure (SQL database, Azure cognitive search).
+
+### Challenges Encountered
+
+#### Microsoft Azure
+
+Before this event, the team had never used Microsoft Azure. So, they encountered some challenges with using the API endpoint from Azure cognitive search to display the database in the UI. They found that the source of the problem was figuring out how to parse through the JSON object that was being received from the endpoint, and ultimately got it working.
+
+#### Google Maps
+
+The team also had a lot of trouble generating a unique API Key for the Google Map. But, they troubleshooted it and were able to find a solution.
+
+Finally, the team ran into a few issues with the format of the maps. At one point, all the data points on our maps were shifted left into the Pacific Ocean. They realized that the CSS file was shifting the data points to the left, and were able to quickly resolve the issue.
 
 ## Meet the Team!
 
